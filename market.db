@@ -1,0 +1,1 @@
+item1 = Item(name="phone", price = 600, description='description', barcode='43465432432')

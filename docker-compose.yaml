@@ -1,8 +1,11 @@
 version: "3.7"
 
 services:
-  helloworld:
+# Give a name for image that you wanna build
+  helloworld: 
     build:
       context: ./
+      dockerfile: Dockerfile
+    container_name: my_app_py
     ports:
       - 5000:5000
